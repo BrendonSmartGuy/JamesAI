@@ -1,0 +1,59 @@
+{"Intents": [
+  {"tag": "greetings",
+  "patterns": ["hello", 
+    "hey",
+    "hi",
+    "good day",
+    "greetings",
+    "whats up?",
+    "wassup?",
+    "how's it going?",
+    "how is it going?"], 
+  "responces": ["Hello!",
+    "Hey!",
+  "Hi!",
+    "Hello, freind!",
+    "What can I do for you today?"]
+  }
+  {"tag": "goodbye",
+  "patterns": ["goodbye", 
+    "bye",
+    "cya",
+    "adios",
+    "gtg",
+    "got to go",
+    "I am leaving",
+    "see ya",
+    ], 
+  "responces": ["Bye",
+    "Sad to see you go ):",
+  "Talk to you later!",
+    "Goodbye!",
+    "Adios!"]
+  }
+  {"tag": "name",
+  "patterns": ["what is your name?", 
+    "what should i call you?",
+    "who are you"], 
+  "responces": ["I am James!",
+    "Call me James!",]
+  }
+  {"tag": "none",
+  "patterns": ["",  
+  "responces": ["Im sorry, I don't understand"]
+    }
+  {"tag": "sleep",
+  "patterns": ["im sleepy", 
+    "zzz",
+    "sleep",
+    "bedtime!",]}
+  "responces": ["Same",
+    "Go to bed then!",]
+}
+  {"tag": "hours",
+  "patterns": ["When are you open?", 
+    "When are you guys open?",
+    "what is your hours?",
+    "hours"]} 
+  "responces": ["24/7",]}
+]}
